@@ -27,15 +27,15 @@ public class Appdecorridas {
 	private String nome;
 	
 	@NotBlank(message = "O atributo endereço é Obrigatório!")
-	@Size(min = 30, max = 100, message = "O atributo endereço deve conter no mínimo 30 e no máximo 100 caracteres")
+	@Size(min = 10, max = 100, message = "O atributo endereço deve conter no mínimo 10 e no máximo 100 caracteres")
 	private String endereço;
 	
 	@NotBlank(message = "O atributo local de partida  é Obrigatório!")
-	@Size(min = 30, max = 100, message = "O atributo local de partida deve conter no mínimo 30 e no máximo 100 caracteres")
+	@Size(min = 10, max = 100, message = "O atributo local de partida deve conter no mínimo 10 e no máximo 100 caracteres")
 	private String localdepartida;
 	
 	@NotBlank(message = "O atributo local de chegada é Obrigatório!")
-	@Size(min = 30, max = 100, message = "O atributo local de chegada  deve conter no mínimo 30 e no máximo 100 caracteres")
+	@Size(min = 10, max = 100, message = "O atributo local de chegada  deve conter no mínimo 10 e no máximo 100 caracteres")
 	private String localdechegada;
 	
 	@UpdateTimestamp
